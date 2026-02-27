@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MerlivoHome - Professional Furniture Assembly Services | Expert Installation</title>
+    <meta name="description" content="MerlivoHome offers professional furniture assembly services for your home and office. Our experienced technicians handle all types of furniture installation with precision and care. Click here to continue and discover hassle-free assembly solutions for beds, desks, cabinets, and more.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            background-color: #f8f9fa;
+        }
+
+        .header9x4k2 {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .container7m3p {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .logo8n2q {
+            font-size: 2rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+
+        .nav5k7m {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            list-style: none;
+        }
+
+        .nav5k7m a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .nav5k7m a:hover {
+            background: rgba(255,255,255,0.2);
+        }
+
+        .hero3j8p {
+            background: linear-gradient(rgba(102, 126, 234, 0.8), rgba(118, 75, 162, 0.8)), url('https://images.pexels.com/photos/6585757/pexels-photo-6585757.jpeg?auto=compress&cs=tinysrgb&w=1200') center/cover;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+
+        .hero3j8p h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .hero3j8p p {
+            font-size: 1.3rem;
+            margin-bottom: 30px;
+        }
+
+        .cta6p9m {
+            display: inline-block;
+            background: #ff6b6b;
+            color: white;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .cta6p9m:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+
+        .section4t8n {
+            padding: 60px 20px;
+            background: white;
+            margin: 20px 0;
+        }
+
+        .section4t8n:nth-child(even) {
+            background: #f8f9fa;
+        }
+
+        .section4t8n h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            color: #667eea;
+            text-align: center;
+        }
+
+        .grid2x5k {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .card9m3x {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .card9m3x:hover {
+            transform: translateY(-5px);
+        }
+
+        .card9m3x h3 {
+            color: #764ba2;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+
+        .img7k2p {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .timeline8x4m {
+            position: relative;
+            padding: 20px 0;
+        }
+
+        .timeline8x4m::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 100%;
+            background: #667eea;
+        }
+
+        .timeline-item3n7k {
+            margin-bottom: 50px;
+            position: relative;
+        }
+
+        .timeline-content5m9p {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            width: 45%;
+        }
+
+        .timeline-item3n7k:nth-child(odd) .timeline-content5m9p {
+            margin-left: 55%;
+        }
+
+        .timeline-item3n7k:nth-child(even) .timeline-content5m9p {
+            margin-right: 55%;
+        }
+
+        .review6k8m {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        .review6k8m .stars4n2x {
+            color: #ffd700;
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .review6k8m .author3m8k {
+            font-weight: bold;
+            color: #764ba2;
+            margin-top: 15px;
+        }
+
+        .footer2n9k {
+            background: #2c3e50;
+            color: white;
+            padding: 40px 20px;
+            margin-top: 50px;
+        }
+
+        .footer-grid7x3m {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .footer2n9k h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+
+        .footer2n9k a {
+            color: #ecf0f1;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .footer2n9k a:hover {
+            color: #667eea;
+        }
+
+        .modal8k3n {
+            display: none;
+            position: fixed;
+            z-index: 2000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.7);
+            overflow-y: auto;
+        }
+
+        .modal-content4m7x {
+            background: white;
+            margin: 50px auto;
+            padding: 40px;
+            width: 90%;
+            max-width: 800px;
+            border-radius: 10px;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        .close9n2k {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close9n2k:hover {
+            color: #000;
+        }
+
+        .phone7m4k {
+            font-size: 1.5rem;
+            color: #ff6b6b;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .phone7m4k:hover {
+            color: #667eea;
+        }
+
+        .highlight3x8n {
+            background: #fff3cd;
+            padding: 20px;
+            border-left: 4px solid #ffc107;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+
+        .process6k9m {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+
+        .step4n7x {
+            text-align: center;
+            flex: 1;
+            min-width: 200px;
+            margin: 20px;
+        }
+
+        .step4n7x .number8m3k {
+            background: #667eea;
+            color: white;
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            margin: 0 auto 20px;
+            font-weight: bold;
+        }
+
+        .stats5n8m {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .stat-item7k3x {
+            flex: 1;
+            min-width: 200px;
+            margin: 20px;
+        }
+
+        .stat-item7k3x .number2m9k {
+            font-size: 3rem;
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .continue-link4x7m {
+            display: inline-block;
+            background: #28a745;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 25px;
+            margin: 15px 0;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .continue-link4x7m:hover {
+            background: #218838;
+        }
+
+        @media (max-width: 768px) {
+            .hero3j8p h1 {
+                font-size: 2rem;
+            }
+
+            .timeline8x4m::before {
+                left: 20px;
+            }
+
+            .timeline-content5m9p {
+                width: 100% !important;
+                margin-left: 40px !important;
+                margin-right: 0 !important;
+            }
+
+            .nav5k7m {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header class="header9x4k2">
+    <div class="container7m3p">
+        <div class="logo8n2q">MerlivoHome</div>
+        <nav>
+            <ul class="nav5k7m">
+                <li><a href="#home9x4k">Home</a></li>
+                <li><a href="#services3m8n">Services</a></li>
+                <li><a href="#about7k2p">About Us</a></li>
+                <li><a href="#history4n9m">Our History</a></li>
+                <li><a href="#process8x3k">Assembly Process</a></li>
+                <li><a href="#expertise6m7n">Our Expertise</a></li>
+                <li><a href="#coverage9k4x">Service Coverage</a></li>
+                <li><a href="#reviews2n8m">Reviews</a></li>
+                <li><a href="#guarantee5x7k">Guarantee</a></li>
+                <li><a href="#contact3m9n">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="home9x4k" class="hero3j8p">
+    <div class="container7m3p">
+        <h1>Professional Furniture Assembly Services</h1>
+        <p>Expert technicians ready to assemble your furniture with precision and care</p>
+        <a href="#contact3m9n" class="cta6p9m">Get Started Today</a>
+    </div>
+</section>
+
+<section id="services3m8n" class="section4t8n">
+    <div class="container7m3p">
+        <h2>Our Assembly Services</h2>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto 40px;">At MerlivoHome, we specialize in transforming flat-packed furniture into fully functional pieces for your living space. Our trained professionals handle everything from simple chairs to complex modular systems. <a href="#process8x3k" class="continue-link4x7m">Click here to continue</a> learning about our comprehensive services.</p>
+        
+        <div class="grid2x5k">
+            <div class="card9m3x">
+                <img src="https://images.pexels.com/photos/6585607/pexels-photo-6585607.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Bedroom furniture assembly" class="img7k2p">
+                <h3>Bedroom Furniture Assembly</h3>
+                <p>We assemble all types of bedroom furniture including beds, wardrobes, dressers, nightstands, and storage units. Our technicians ensure every piece is sturdy and properly aligned for years of reliable use. We work with all major brands and custom pieces.</p>
+            </div>
+            
+            <div class="card9m3x">
+                <img src="https://images.pexels.com/photos/667838/pexels-photo-667838.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Office furniture installation" class="img7k2p">
+                <h3>Office Furniture Installation</h3>
+                <p>Transform your workspace with our office furniture assembly services. We handle desks, filing cabinets, bookcases, conference tables, and ergonomic workstations. Perfect for home offices and commercial spaces alike.</p>
+            </div>
+            
+            <div class="card9m3x">
+                <img src="https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Living room furniture" class="img7k2p">
+                <h3>Living Room Furniture</h3>
+                <p>Our team expertly assembles entertainment centers, coffee tables, shelving units, TV stands, and modular seating. We ensure all components are securely fastened and level for optimal functionality and appearance.</p>
+            </div>
+            
+            <div class="card9m3x">
+                <img src="https://images.pexels.com/photos/1080696/pexels-photo-1080696.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Dining furniture assembly" class="img7k2p">
+                <h3>Dining Room Solutions</h3>
+                <p>From simple dining sets to elaborate buffets and china cabinets, we handle all dining room furniture assembly needs. Our attention to detail ensures stable tables and properly aligned chairs for comfortable dining experiences.</p>
+            </div>
+            
+            <div class="card9m3x">
+                <img src="https://images.pexels.com/photos/6585592/pexels-photo-6585592.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Children furniture" class="img7k2p">
+                <h3>Children's Furniture</h3>
+                <p>Safety is our priority when assembling children's furniture. We carefully construct cribs, bunk beds, toy storage, study desks, and play tables following all safety guidelines and manufacturer specifications.</p>
+            </div>
+            
+            <div class="card9m3x">
+                <img src="https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Outdoor furniture" class="img7k2p">
+                <h3>Outdoor Furniture Assembly</h3>
+                <p>Extend your living space outdoors with our patio and garden furniture assembly services. We assemble gazebos, outdoor dining sets, lounge chairs, storage benches, and garden sheds with weather-resistant techniques.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="about7k2p" class="section4t8n">
+    <div class="container7m3p">
+        <h2>About MerlivoHome</h2>
+        <div class="grid2x5k">
+            <div>
+                <img src="https://images.pexels.com/photos/5691608/pexels-photo-5691608.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Professional assembly team" class="img7k2p">
+            </div>
+            <div>
+                <h3>Your Trusted Assembly Partner</h3>
+                <p>MerlivoHome has been serving homeowners and businesses with exceptional furniture assembly services. Our mission is to eliminate the frustration and time consumption associated with furniture assembly, allowing you to enjoy your new pieces immediately.</p>
+                
+                <p>We understand that furniture assembly can be overwhelming, especially with complex instructions and numerous parts. That's why our experienced technicians bring the expertise and tools necessary to complete any assembly job efficiently and correctly the first time.</p>
+                
+                <div class="highlight3x8n">
+                    <strong>Why Choose Us?</strong>
+                    <p>Our commitment to excellence means every project receives meticulous attention. We treat your furniture and home with respect, ensuring clean workspaces and careful handling of all components.</p>
+                </div>
+                
+                <p>Whether you've purchased furniture from major retailers or specialty stores, our team has the knowledge to handle various brands and styles. We stay updated on the latest assembly techniques and manufacturer requirements.</p>
+            </div>
+        </div>
+        
+        <div class="stats5n8m">
+            <div class="stat-item7k3x">
+                <div class="number2m9k">5000+</div>
+                <p>Furniture Pieces Assembled</p>
+            </div>
+            <div class="stat-item7k3x">
+                <div class="number2m9k">98%</div>
+                <p>Customer Satisfaction Rate</p>
+            </div>
+            <div class="stat-item7k3x">
+                <div class="number2m9k">24hr</div>
+                <p>Average Response Time</p>
+            </div>
+            <div class="stat-item7k3x">
+                <div class="number2m9k">15+</div>
+                <p>Years Combined Experience</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="history4n9m" class="section4t8n">
+    <div class="container7m3p">
+        <h2>Our Journey</h2>
+        <div class="timeline8x4m">
+            <div class="timeline-item3n7k">
+                <div class="timeline-content5m9p">
+                    <h3>2018 - The Beginning</h3>
+                    <p>MerlivoHome was founded by a group of skilled craftsmen who recognized the growing need for professional furniture assembly services. Starting with just three technicians and a small service area, we focused on delivering exceptional quality and customer service that would set us apart.</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item3n7k">
+                <div class="timeline-content5m9p">
+                    <h3>2019 - Expansion Phase</h3>
+                    <p>Due to overwhelming positive feedback and word-of-mouth referrals, we expanded our team to ten technicians and broadened our service coverage. We invested in specialized tools and training programs to handle increasingly complex furniture systems and commercial installations.</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item3n7k">
+                <div class="timeline-content5m9p">
+                    <h3>2020 - Innovation Year</h3>
+                    <p>We introduced our streamlined booking system and same-day service options. Despite challenges, we adapted by implementing enhanced safety protocols while maintaining our commitment to quality. This year marked our 1000th successful assembly project.</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item3n7k">
+                <div class="timeline-content5m9p">
+                    <h3>2021 - Commercial Growth</h3>
+                    <p>MerlivoHome began partnering with local businesses and property management companies, providing bulk assembly services for apartment complexes and office buildings. Our reputation for reliability and efficiency opened new opportunities in the commercial sector.</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item3n7k">
+                <div class="timeline-content5m9p">
+                    <h3>2022 - Recognition</h3>
+                    <p>We received multiple customer service awards and achieved a milestone of 3500 completed projects. Our team grew to include specialized technicians for different furniture categories, ensuring expert knowledge for every type of assembly.</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item3n7k">
+                <div class="timeline-content5m9p">
+                    <h3>2023 - Present Day</h3>
+                    <p>Today, MerlivoHome stands as a trusted name in furniture assembly services. We continue to invest in our team's training and development, staying ahead of industry trends and maintaining the high standards that our customers expect and deserve.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="process8x3k" class="section4t8n">
+    <div class="container7m3p">
+        <h2>Our Assembly Process</h2>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto 40px;">We've refined our assembly process to ensure efficiency, accuracy, and customer satisfaction. Each step is designed to deliver the best possible experience from initial contact to final inspection.</p>
+        
+        <div class="process6k9m">
+            <div class="step4n7x">
+                <div class="number8m3k">1</div>
+                <h3>Initial Consultation</h3>
+                <p>Contact us with details about your furniture assembly needs. We'll discuss the scope of work, timing preferences, and any special requirements you may have.</p>
+            </div>
+            
+            <div class="step4n7x">
+                <div class="number8m3k">2</div>
+                <h3>Scheduling</h3>
+                <p>We arrange a convenient appointment time that fits your schedule. Our flexible booking system accommodates both residential and commercial clients with various time slots available.</p>
+            </div>
+            
+            <div class="step4n7x">
+                <div class="number8m3k">3</div>
+                <h3>Professional Assembly</h3>
+                <p>Our technician arrives with all necessary tools and equipment. They carefully unpack, organize components, and systematically assemble your furniture following manufacturer specifications.</p>
+            </div>
+            
+            <div class="step4n7x">
+                <div class="number8m3k">4</div>
+                <h3>Quality Check</h3>
+                <p>After assembly, we conduct a thorough inspection to ensure stability, proper alignment, and functionality. We test all moving parts and make any necessary adjustments.</p>
+            </div>
+            
+            <div class="step4n7x">
+                <div class="number8m3k">5</div>
+                <h3>Cleanup & Review</h3>
+                <p>We remove all packaging materials and clean the work area. Our technician reviews the completed assembly with you and answers any questions about care and maintenance.</p>
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="#contact3m9n" class="continue-link4x7m">Click here to continue and schedule your assembly</a>
+        </div>
+    </div>
+</section>
+
+<section id="expertise6m7n" class="section4t8n">
+    <div class="container7m3p">
+        <h2>Our Areas of Expertise</h2>
+        <div class="grid2x5k">
+            <div class="card9m3x">
+                <h3>Complex Modular Systems</h3>
+                <p>We excel at assembling intricate modular furniture systems that require precise alignment and coordination. Our technicians understand the engineering behind these systems and ensure each module connects seamlessly for structural integrity and aesthetic appeal.</p>
+            </div>
+            
+            <div class="card9m3x">
+                <h3>Flat-Pack Furniture</h3>
+                <p>From simple bookcases to elaborate wardrobe systems, we handle all types of flat-pack furniture with efficiency. Our experience with various manufacturers means we can quickly interpret instructions and identify the most effective assembly sequence.</p>
+            </div>
+            
+            <div class="card9m3x">
+                <h3>Custom Installations</h3>
+                <p>When standard assembly isn't enough, we offer custom installation solutions. This includes wall mounting, creating built-in appearances, and adapting furniture to unique spaces or specific requirements.</p>
+            </div>
+            
+            <div class="card9m3x">
+                <h3>Ergonomic Adjustments</h3>
+                <p>For office furniture and workstations, we provide ergonomic setup services. We adjust chair heights, desk positions, and monitor placements to promote comfort and productivity in your workspace.</p>
+            </div>
+            
+            <div class="card9m3x">
+                <h3>Disassembly Services</h3>
+                <p>Moving or redecorating? We also offer furniture disassembly services. Our team carefully takes apart furniture for transport or storage, labeling components for easy reassembly at your new location.</p>
+            </div>
+            
+            <div class="card9m3x">
+                <h3>Repair & Reinforcement</h3>
+                <p>If your existing furniture needs attention, we provide repair and reinforcement services. We can tighten loose joints, replace damaged hardware, and strengthen weak points to extend your furniture's lifespan.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="coverage9k4x" class="section4t8n">
+    <div class="container7m3p">
+        <h2>Service Coverage Areas</h2>
+        <div class="grid2x5k">
+            <div>
+                <img src="https://images.pexels.com/photos/280221/pexels-photo-280221.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Service coverage map" class="img7k2p">
+            </div>
+            <div>
+                <h3>Where We Serve</h3>
+                <p>MerlivoHome proudly serves residential and commercial clients throughout the metropolitan area and surrounding communities. Our service radius extends to ensure we can help customers in both urban centers and suburban neighborhoods.</p>
+                
+                <p>We maintain a fleet of service vehicles equipped with comprehensive tool sets, allowing our technicians to handle any assembly challenge they encounter. Our strategic scheduling ensures prompt service across all coverage areas.</p>
+                
+                <div class="highlight3x8n">
+                    <strong>Service Area Highlights:</strong>
+                    <ul style="margin-top: 10px; margin-left: 20px;">
+                        <li>Downtown and central business districts</li>
+                        <li>Residential neighborhoods and subdivisions</li>
+                        <li>Apartment complexes and condominiums</li>
+                        <li>Office parks and commercial centers</li>
+                        <li>Educational institutions and facilities</li>
+                        <li>Healthcare and hospitality venues</li>
+                    </ul>
+                </div>
+                
+                <p>Not sure if we serve your area? Contact us to confirm coverage and discuss your furniture assembly needs. We're continuously expanding our service territory to accommodate more customers.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="reviews2n8m" class="section4t8n">
+    <div class="container7m3p">
+        <h2>Customer Reviews</h2>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto 40px;">Don't just take our word for it. Here's what our satisfied customers have to say about their experience with MerlivoHome furniture assembly services.</p>
+        
+        <div class="grid2x5k">
+            <div class="review6k8m">
+                <div class="stars4n2x">★★★★★</div>
+                <p>"I purchased a complex bedroom set and was dreading the assembly process. MerlivoHome made it completely stress-free! The technician arrived on time, worked efficiently, and the furniture looks perfect. Highly recommend their services to anyone who values their time and sanity."</p>
+                <div class="author3m8k">- Jennifer Martinez</div>
+            </div>
+            
+            <div class="review6k8m">
+                <div class="stars4n2x">★★★★★</div>
+                <p>"We needed office furniture assembled for our new startup location. The team from MerlivoHome was professional, quick, and detail-oriented. They assembled 15 desks, multiple filing cabinets, and conference room furniture in one day. Exceptional service!"</p>
+                <div class="author3m8k">- Robert Chen</div>
+            </div>
+            
+            <div class="review6k8m">
+                <div class="stars4n2x">★★★★★</div>
+                <p>"After struggling with furniture assembly instructions for hours, I called MerlivoHome. Best decision ever! The technician had my entertainment center assembled in under two hours. Clean, professional, and worth every penny."</p>
+                <div class="author3m8k">- Sarah Thompson</div>
+            </div>
+            
+            <div class="review6k8m">
+                <div class="stars4n2x">★★★★★</div>
+                <p>"I've used MerlivoHome three times now for various furniture pieces. Each experience has been outstanding. They're reliable, skilled, and treat your home with respect. The technicians really know what they're doing."</p>
+                <div class="author3m8k">- Michael Davidson</div>
+            </div>
+            
+            <div class="review6k8m">
+                <div class="stars4n2x">★★★★★</div>
+                <p>"Assembled a bunk bed for my kids' room. Safety was my main concern, and the MerlivoHome technician was thorough in ensuring everything was secure and stable. He even explained the safety features to me. Great peace of mind!"</p>
+                <div class="author3m8k">- Patricia Williams</div>
+            </div>
+            
+            <div class="review6k8m">
+                <div class="stars4n2x">★★★★★</div>
+                <p>"Our property management company uses MerlivoHome for all apartment turnovers. They're dependable, efficient, and their work quality is consistent. They've become an essential part of our operations."</p>
+                <div class="author3m8k">- David Kowalski</div>
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="#contact3m9n" class="continue-link4x7m">Click here to continue and become our next satisfied customer</a>
+        </div>
+    </div>
+</section>
+
+<section id="guarantee5x7k" class="section4t8n">
+    <div class="container7m3p">
+        <h2>Our Service Guarantee</h2>
+        <div class="grid2x5k">
+            <div class="card9m3x">
+                <h3>Quality Workmanship</h3>
+                <p>We stand behind every assembly job we complete. Our technicians are trained to follow manufacturer specifications precisely, ensuring your furniture is assembled correctly and safely. If any issues arise from our assembly work, we'll return to make it right at no additional charge.</p>
+            </div>
+            
+            <div class="card9m3x">
+                <h3>Punctuality Promise</h3>
+                <p>We respect your time and schedule. Our technicians arrive within the scheduled appointment window and work efficiently to complete your assembly project. If we're running late, we'll notify you immediately and adjust the schedule to your convenience.</p>
+            </div>
+            
+            <div class="card9m3x">
+                <h3>Damage Protection</h3>
+                <p>While we take extreme care with your furniture and property, we maintain comprehensive insurance coverage for your peace of mind. Our technicians use protective materials and careful handling techniques to prevent any damage during the assembly process.</p>
+            </div>
+            
+            <div class="card9m3x">
+                <h3>Satisfaction Commitment</h3>
+                <p>Your satisfaction is our ultimate goal. We're not finished until you're completely happy with the assembled furniture. Our technicians will address any concerns immediately and ensure everything meets your expectations before they leave.</p>
+            </div>
+        </div>
+        
+        <div class="highlight3x8n" style="margin-top: 40px;">
+            <h3>What's Included in Every Service</h3>
+            <ul style="margin-left: 20px; margin-top: 15px;">
+                <li>Complete assembly of all furniture components</li>
+                <li>Professional-grade tools and equipment</li>
+                <li>Careful unpacking and organization of parts</li>
+                <li>Thorough stability and functionality testing</li>
+                <li>Removal of all packaging materials</li>
+                <li>Workspace cleanup and debris disposal</li>
+                <li>Assembly verification and walkthrough</li>
+                <li>Care and maintenance recommendations</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="contact3m9n" class="section4t8n">
+    <div class="container7m3p">
+        <h2>Contact MerlivoHome</h2>
+        <div class="grid2x5k">
+            <div>
+                <h3>Get Your Free Consultation</h3>
+                <p>Ready to experience hassle-free furniture assembly? Contact us today to discuss your project and receive a customized service plan. Our friendly team is available to answer questions and schedule your appointment.</p>
+                
+                <div class="highlight3x8n">
+                    <h4>Contact Information</h4>
+                    <p><strong>Phone:</strong> <a href="tel:+15558742390" class="phone7m4k">+1 (555) 874-2390</a></p>
+                    <p><strong>Email:</strong> service@merlivohome.com</p>
+                    <p><strong>Hours:</strong> Monday - Saturday: 8:00 AM - 7:00 PM<br>Sunday: 10:00 AM - 5:00 PM</p>
+                </div>
+                
+                <p>We typically respond to all inquiries within 2-4 hours during business hours. For urgent assembly needs, please call us directly for immediate assistance.</p>
+                
+                <h3 style="margin-top: 30px;">Service Request Information</h3>
+                <p>When contacting us, please have the following information ready to help us provide an accurate assessment:</p>
+                <ul style="margin-left: 20px; margin-top: 10px;">
+                    <li>Type and quantity of furniture pieces</li>
+                    <li>Furniture brand and model (if known)</li>
+                    <li>Preferred service date and time</li>
+                    <li>Service location and any access considerations</li>
+                    <li>Special requirements or concerns</li>
+                </ul>
+            </div>
+            
+            <div>
+                <img src="https://images.pexels.com/photos/4792509/pexels-photo-4792509.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Customer service representative" class="img7k2p">
+                
+                <div class="card9m3x" style="margin-top: 20px;">
+                    <h3>Why Call Us Today?</h3>
+                    <p>Save yourself hours of frustration and potential mistakes. Our experienced technicians can complete in hours what might take you an entire weekend. Plus, you'll have the confidence that your furniture is assembled correctly and safely.</p>
+                    
+                    <p>We offer flexible scheduling to accommodate your busy lifestyle, including evening and weekend appointments. Whether you need one piece assembled or an entire home furnished, we're here to help.</p>
+                    
+                    <p style="margin-top: 20px;"><strong>Call now:</strong> <a href="tel:+15558742390" class="phone7m4k">+1 (555) 874-2390</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer2n9k">
+    <div class="container7m3p">
+        <div class="footer-grid7x3m">
+            <div>
+                <h3>MerlivoHome</h3>
+                <p>Professional furniture assembly services you can trust. We transform flat-packed furniture into functional pieces for your home and office.</p>
+                <p style="margin-top: 15px;"><strong>Phone:</strong> <a href="tel:+15558742390" class="phone7m4k">+1 (555) 874-2390</a></p>
+                <p><strong>Email:</strong> service@merlivohome.com</p>
+            </div>
+            
+            <div>
+                <h3>Quick Links</h3>
+                <a href="#home9x4k">Home</a>
+                <a href="#services3m8n">Services</a>
+                <a href="#about7k2p">About Us</a>
+                <a href="#history4n9m">Our History</a>
+                <a href="#reviews2n8m">Reviews</a>
+                <a href="#contact3m9n">Contact</a>
+            </div>
+            
+            <div>
+                <h3>Services</h3>
+                <a href="#services3m8n">Bedroom Furniture</a>
+                <a href="#services3m8n">Office Furniture</a>
+                <a href="#services3m8n">Living Room Furniture</a>
+                <a href="#services3m8n">Dining Room Furniture</a>
+                <a href="#services3m8n">Children's Furniture</a>
+                <a href="#services3m8n">Outdoor Furniture</a>
+            </div>
+            
+            <div>
+                <h3>Business Hours</h3>
+                <p>Monday - Friday: 8:00 AM - 7:00 PM</p>
+                <p>Saturday: 8:00 AM - 7:00 PM</p>
+                <p>Sunday: 10:00 AM - 5:00 PM</p>
+                <p style="margin-top: 15px;"><strong>Address:</strong><br>
+                2847 Oakwood Avenue<br>
+                Springfield, IL 62704</p>
+            </div>
+        </div>
+        
+        <div style="margin-top: 30px; padding-top: 30px; border-top: 1px solid #34495e; text-align: center;">
+            <p><a href="#" onclick="openModal('privacy8k3n'); return false;" style="color: #667eea;">Privacy Policy</a> | 
+            <a href="#" onclick="openModal('terms4m7x'); return false;" style="color: #667eea;">Terms of Service</a></p>
+            <p style="margin-top: 15px;">&copy; 2024 MerlivoHome. All rights reserved. Professional Furniture Assembly Services.</p>
+        </div>
+    </div>
+</footer>
+
+<div id="privacy8k3n" class="modal8k3n">
+    <div class="modal-content4m7x">
+        <span class="close9n2k" onclick="closeModal('privacy8k3n')">&times;</span>
+        <h2>Privacy Policy</h2>
+        <p><strong>Last Updated: January 2024</strong></p>
+        
+        <h3>1. Information Collection</h3>
+        <p>MerlivoHome collects information necessary to provide furniture assembly services. This includes your name, contact information, service address, and details about the furniture requiring assembly. We collect this information when you contact us for services, schedule appointments, or communicate with our team.</p>
+        
+        <h3>2. Use of Information</h3>
+        <p>We use collected information solely for providing and improving our furniture assembly services. This includes scheduling appointments, communicating about service details, processing payments, and following up on service quality. We may also use your information to send service reminders and updates about our offerings.</p>
+        
+        <h3>3. Information Protection</h3>
+        <p>We implement appropriate security measures to protect your personal information from unauthorized access, alteration, or disclosure. Our team members are trained on privacy practices and are required to maintain confidentiality of customer information.</p>
+        
+        <h3>4. Information Sharing</h3>
+        <p>MerlivoHome does not sell, trade, or rent your personal information to third parties. We may share information with service providers who assist in our operations, such as payment processors or scheduling systems, but only to the extent necessary for providing our services.</p>
+        
+        <h3>5. Communication Preferences</h3>
+        <p>You may receive communications from us regarding your service appointments, confirmations, and follow-ups. You can opt out of promotional communications at any time by contacting us directly.</p>
+        
+        <h3>6. Data Retention</h3>
+        <p>We retain your information for as long as necessary to provide services and comply with legal obligations. Service records are maintained for quality assurance and warranty purposes.</p>
+        
+        <h3>7. Your Rights</h3>
+        <p>You have the right to access, correct, or request deletion of your personal information. Contact us at service@merlivohome.com to exercise these rights or if you have questions about our privacy practices.</p>
+        
+        <h3>8. Cookies and Tracking</h3>
+        <p>Our website may use cookies to improve user experience and analyze site usage. These technologies help us understand how visitors interact with our site and improve our services.</p>
+        
+        <h3>9. Children's Privacy</h3>
+        <p>Our services are not directed to children under 13, and we do not knowingly collect information from children.</p>
+        
+        <h3>10. Policy Updates</h3>
+        <p>We may update this privacy policy periodically. Changes will be posted on this page with an updated revision date.</p>
+        
+        <h3>Contact Us</h3>
+        <p>For privacy-related questions or concerns, contact us at:<br>
+        Email: service@merlivohome.com<br>
+        Phone: <a href="tel:+15558742390">+1 (555) 874-2390</a></p>
+    </div>
+</div>
+
+<div id="terms4m7x" class="modal8k3n">
+    <div class="modal-content4m7x">
+        <span class="close9n2k" onclick="closeModal('terms4m7x')">&times;</span>
+        <h2>Terms of Service</h2>
+        <p><strong>Last Updated: January 2024</strong></p>
+        
+        <h3>1. Service Agreement</h3>
+        <p>By engaging MerlivoHome for furniture assembly services, you agree to these terms of service. These terms constitute a binding agreement between you and MerlivoHome regarding the provision of furniture assembly services.</p>
+        
+        <h3>2. Service Description</h3>
+        <p>MerlivoHome provides professional furniture assembly services for residential and commercial clients. Our services include unpacking, organizing components, assembling furniture according to manufacturer specifications, testing functionality, and removing packaging materials.</p>
+        
+        <h3>3. Scheduling and Appointments</h3>
+        <p>Service appointments are scheduled based on availability. We strive to arrive within the scheduled time window. If you need to reschedule, please provide at least 24 hours notice. Late cancellations may be subject to fees.</p>
+        
+        <h3>4. Customer Responsibilities</h3>
+        <p>Customers are responsible for ensuring furniture and all components are present at the service location. You must provide accurate information about the furniture requiring assembly and ensure adequate workspace is available. Any special requirements or access issues should be communicated in advance.</p>
+        
+        <h3>5. Service Limitations</h3>
+        <p>Our services cover standard furniture assembly. We do not provide electrical work, plumbing, or structural modifications. If furniture requires wall mounting, you must confirm that walls can support the installation. We reserve the right to decline services that pose safety concerns.</p>
+        
+        <h3>6. Pricing and Payment</h3>
+        <p>Service fees are based on the complexity and quantity of furniture requiring assembly. Payment is due upon completion of services unless other arrangements have been made. We accept various payment methods for your convenience.</p>
+        
+        <h3>7. Warranty and Liability</h3>
+        <p>We guarantee our workmanship and will address any assembly-related issues at no additional charge. However, we are not responsible for defects in furniture materials or manufacturing. Our liability is limited to the cost of the assembly service provided.</p>
+        
+        <h3>8. Damage and Insurance</h3>
+        <p>While we take extreme care, if damage occurs due to our negligence during assembly, we will work with you to resolve the issue. We maintain insurance coverage for such circumstances. Pre-existing damage should be noted before service begins.</p>
+        
+        <h3>9. Missing or Damaged Parts</h3>
+        <p>If furniture arrives with missing or damaged parts, this is a manufacturer issue. We can identify such problems and provide guidance on obtaining replacements, but we cannot complete assembly without necessary components.</p>
+        
+        <h3>10. Service Modifications</h3>
+        <p>If additional work is discovered during assembly, we will discuss options and any additional costs before proceeding. You have the right to decline additional services.</p>
+        
+        <h3>11. Intellectual Property</h3>
+        <p>All content on the MerlivoHome website, including text, graphics, and logos, is our property and protected by copyright laws.</p>
+        
+        <h3>12. Dispute Resolution</h3>
+        <p>Any disputes arising from our services will be resolved through good faith negotiation. If resolution cannot be reached, disputes will be handled according to local jurisdiction laws.</p>
+        
+        <h3>13. Service Area</h3>
+        <p>Services are provided within our designated service area. Travel fees may apply for locations outside our standard coverage zone.</p>
+        
+        <h3>14. Terms Modifications</h3>
+        <p>We reserve the right to modify these terms at any time. Updated terms will be posted on our website with a revision date.</p>
+        
+        <h3>Contact Information</h3>
+        <p>For questions about these terms, contact us at:<br>
+        Email: service@merlivohome.com<br>
+        Phone: <a href="tel:+15558742390">+1 (555) 874-2390</a><br>
+        Address: 2847 Oakwood Avenue, Springfield, IL 62704</p>
+    </div>
+</div>
+
+<script>
+    function openModal(modalId) {
+        document.getElementById(modalId).style.display = 'block';
+        document.body.style.overflow = 'hidden';
+    }
+    
+    function closeModal(modalId) {
+        document.getElementById(modalId).style.display = 'none';
+        document.body.style.overflow = 'auto';
+    }
+    
+    window.onclick = function(event) {
+        if (event.target.classList.contains('modal8k3n')) {
+            event.target.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        }
+    }
+    
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
